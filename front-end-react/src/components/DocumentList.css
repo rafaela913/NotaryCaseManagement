@@ -1,0 +1,69 @@
+.document-list-container {
+  padding: 20px;
+  background-color: #000000; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  color: #FFFFFF; 
+  font-family: 'Georgia', serif; 
+}
+
+.document-list-container h2 {
+  margin-bottom: 20px;
+  color: #800020; /* Burgundiu */
+  font-size: 2em;
+  text-align: center;
+}
+
+.document-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.document-list-container li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #1f1f1f; /* Gri Închis */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.document-list-container li:hover {
+  background-color: #333333; /* Gri mai Deschis */
+}
+
+.document-list-container li h3,
+.document-list-container li p {
+  margin: 0;
+  color: #FFFFFF; /* Text alb */
+}
+
+.document-item a {
+  color: #800020; 
+  text-decoration: underline;
+}
+
+.document-item a:hover {
+  text-decoration: underline;
+  color: #622a2abc; 
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 98%; /* Ajustează această valoare pentru a fi mai mică decât containerul */
+  padding: 10px;
+  border: 1px solid #800020; /* Burgundiu */
+  border-radius: 5px;
+  background-color: #f4f4f4; /* Gri deschis */
+  color: #800020; /* Burgundiu */
+  font-family: 'Georgia', serif; /* Font elegant */
+  font-size: 16px;
+}
+

@@ -1,0 +1,60 @@
+.edit-case-form-container {
+  padding: 20px;
+  background-color: #ffffff; /* Negru */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 251, 251, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  color: #FFFFFF; /* Text alb */
+  font-family: 'Georgia', serif; /* Font elegant */
+}
+
+.edit-case-form-container h2 {
+  margin-bottom: 20px;
+  color: #800020; /* Burgundiu */
+  font-size: 2em;
+  text-align: center;
+}
+
+.edit-case-form-container form {
+  margin-top: 20px;
+}
+
+.edit-case-form-container label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #800020; /* Text alb */
+}
+
+.edit-case-form-container input,
+.edit-case-form-container textarea,
+.edit-case-form-container select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #622a2a88; /* Gri */
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 100%); /* Negru */
+  color: #800020; /* Text alb */
+}
+
+.edit-case-form-container button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #800020; /* Burgundiu */
+  color: #FFFFFF; /* Alb */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-case-form-container button:hover {
+  background-color: #622a2a88; /* Gri */
+}
+
+.edit-case-form-container .message {
+  margin-top: 20px;
+  color: green;
+}

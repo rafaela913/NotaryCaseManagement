@@ -1,0 +1,129 @@
+.view-case-container {
+  padding: 20px;
+  background-color: #ffffff; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  color: #800020; 
+  font-family: 'Georgia', serif; 
+}
+
+.view-case-container h2,
+.view-case-container h3 {
+  color: #800020;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.view-case-container p {
+  margin: 10px 0;
+}
+
+
+.view-case-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.view-case-container li {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #800020; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.view-case-container li h4 {
+  margin: 0 0 10px;
+}
+
+.view-case-container li a {
+  color: #800020; 
+  text-decoration: none;
+}
+
+.view-case-container li a:hover {
+  text-decoration: underline;
+  color: #622a2abc; 
+}
+
+.btn-back {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #800020; 
+  color: #FFFFFF; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.btn-back:hover {
+  background-color: #622a2a88; 
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #800020; 
+  color: #FFFFFF; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #622a2a88; 
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #800020; 
+  color: #FFFFFF; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.btn-secondary:hover {
+  background-color: #622a2a88; 
+}
+
+.delete-button {
+  background: none;
+  color: #800020;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Georgia', serif;
+}
+
+.delete-button:hover {
+  text-decoration: underline;
+  color: #622a2abc;
+}
+
+.documents-container{
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 2em;
+  border: 2px solid #800020; 
+  border-radius: 1em;
+  background: #FFFFFF; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* text-align: center; */
+  color: #800020; 
+
+}

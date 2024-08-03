@@ -1,0 +1,103 @@
+.container {
+  padding: 20px;
+  background-color: #ffffff; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  color: #800020; 
+  font-family: 'Georgia', serif; 
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.error-msg {
+  color: #800020;
+  margin-top: 10px;
+}
+
+.pdf-container {
+  background-color: #FFFFFF; 
+  padding: 10px;
+  border-radius: 10px;
+  color: black; 
+}
+
+.btn {
+  background-color: #800020; 
+  color: #FFFFFF; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #622a2a88; 
+}
+
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: #FFFFFF; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 600px; 
+  max-width: 90%;
+  max-height: 90vh; 
+  overflow-y: auto; 
+  z-index: 1000;
+}
+
+.ocr-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #FFFFFF; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 800px; 
+  max-width: 90%;
+  max-height: 90vh; 
+  overflow-y: auto; 
+  z-index: 1050; 
+}
+
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.success-message {
+  color: #800020; 
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.ocr-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ocr-title {
+  color: #800020; 
+}

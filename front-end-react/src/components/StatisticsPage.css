@@ -1,0 +1,58 @@
+.statistics-page-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 2em;
+    border: 2px solid #800020; 
+    border-radius: 1em;
+    background: #FFFFFF; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #800020; 
+    font-family: 'Georgia', serif;
+}
+
+.statistics-page-container h1 {
+    color: #800020; 
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.report-selection-form {
+    margin-bottom: 2em;
+}
+
+.report-selection-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #800020; 
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.report-selection-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #800020; 
+    border-radius: 5px;
+    background-color: #FFFFFF; 
+    color: #800020; 
+    font-size: 1em;
+    transition: border 0.3s ease;
+}
+
+.report-selection-form select:focus {
+    border-color: #622a2a; 
+    outline: none;
+}
+
+.back-button {
+    background-color: #800020;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+  }

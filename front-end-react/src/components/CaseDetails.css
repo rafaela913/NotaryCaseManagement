@@ -1,0 +1,22 @@
+.case-details-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 2em;
+  border: 2px solid #800020; 
+  border-radius: 1em;
+  background: #FFFFFF; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #800020; 
+}
+
+.case-details-container h2 {
+  color: #800020; 
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.case-details-container p {
+  margin-bottom: 10px;
+  color: #800020; 
+}

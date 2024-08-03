@@ -1,0 +1,71 @@
+.case-stats-chart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 2em;
+    border: 2px solid #800020; 
+    border-radius: 1em;
+    background: #FFFFFF; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #800020; 
+    font-family: 'Georgia', serif;
+    transition: all 0.3s ease;
+}
+
+.case-stats-chart-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.case-stats-chart-container h2 {
+    color: #800020; 
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.case-stats-chart-container form {
+    margin-bottom: 2em;
+}
+
+.date-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.date-selection-container label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #800020; 
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.date-selection-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #800020; 
+    border-radius: 5px;
+    background-color: #FFFFFF; 
+    color: #800020; 
+    font-size: 1em;
+    transition: border 0.3s ease;
+}
+
+.date-selection-container input:focus {
+    border-color: #622a2a; 
+    outline: none;
+}
+
+.error {
+    color: red;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #ffe6e6;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+}

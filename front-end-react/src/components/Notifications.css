@@ -1,0 +1,36 @@
+/* Notifications.css */
+.notifications-container {
+    padding: 20px;
+    background-color: #ffffff; /* Alb */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    color: #343a40; /* Gri */
+    font-family: 'Georgia', serif;
+  }
+  
+  .notifications-container h2 {
+    margin-bottom: 20px;
+    color: #800020; /* Burgundiu */
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .notifications-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notifications-container li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .notifications-container li p {
+    margin: 5px 0;
+  }
+  

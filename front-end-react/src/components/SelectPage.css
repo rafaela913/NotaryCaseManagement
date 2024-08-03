@@ -1,0 +1,31 @@
+.select-page-container {
+  padding: 20px;
+  background-color: #ffffff; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  color: #FFFFFF; 
+  font-family: 'Georgia', serif; 
+}
+
+.select-page-container h2 {
+  margin-bottom: 20px;
+  color: #800020; 
+  font-size: 2em;
+  text-align: center;
+}
+
+.select-page-container .link-container {
+  margin: 10px 0;
+}
+
+.select-page-container .link-container a {
+  color: #800020; 
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.select-page-container .link-container a:hover {
+  color: #622a2abc; 
+}

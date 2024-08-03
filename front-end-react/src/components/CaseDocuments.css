@@ -1,0 +1,36 @@
+.case-documents-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 2em;
+  border: 2px solid #800020; 
+  border-radius: 1em;
+  background: #FFFFFF; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #800020; 
+}
+
+.case-documents-container h2 {
+  color: #800020; 
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.case-documents-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.case-documents-container li {
+  margin-bottom: 10px;
+}
+
+.case-documents-container a {
+  color: #800020; 
+  text-decoration: none;
+}
+
+.case-documents-container a:hover {
+  text-decoration: underline;
+  color: #622a2a88; 
+}
