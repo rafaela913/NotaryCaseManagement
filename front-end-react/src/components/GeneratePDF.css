@@ -1,0 +1,129 @@
+
+.generate-pdf-page {
+  display: flex;
+  min-height: 100vh;
+  background-color: #800020;
+}
+
+.generate-pdf-content {
+  flex: 1;
+  padding: 0;
+}
+
+.generate-pdf-header {
+  position: relative;
+  background-image: url('../assets/navbar-bg.jpg');
+  background-size: cover;
+  background-position: center;
+
+  padding: 22px 32px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.generate-pdf-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(62, 25, 28, 0.35);
+  backdrop-filter: blur(6px);
+}
+
+.generate-pdf-header > * {
+  position: relative;
+  z-index: 1;
+}
+
+.generate-pdf-header h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+
+  font-family: 'Georgia', serif;
+  font-size: 2.4em;
+  font-weight: 600;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+  white-space: nowrap;
+}
+
+.header-button {
+  background: rgba(128, 0, 32, 0.85);
+  border: none;
+  color: #ffffff;
+  padding: 8px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Georgia', serif;
+  font-size: 15px;
+}
+
+.generate-pdf-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 28px auto 36px;
+  padding: 24px;
+
+  background: #ffffff;
+  color: #800020;
+  border-radius: 16px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.28);
+  font-family: 'Georgia', serif;
+}
+
+.generate-pdf-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px; 
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 2px;
+  color: #800020;
+}
+
+.form-group input {
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 0, 32, 0.55);
+  background: #ffffff;
+  color: #800020;
+  font-family: 'Georgia', serif;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #800020;
+  box-shadow: 0 0 0 2px rgba(128,0,32,0.15);
+}
+
+.primary-button {
+  margin-top: 12px;
+  background: #800020;
+  color: #ffffff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 12px;
+  font-family: 'Georgia', serif;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+  align-self: flex-start;
+}
+
+.primary-button:hover {
+  background: #622a2a;
+  transform: translateY(-1px);
+}

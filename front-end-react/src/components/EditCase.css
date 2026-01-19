@@ -1,0 +1,145 @@
+
+.edit-case-page {
+  display: flex;
+  min-height: 100vh;
+  background-color: #800020;
+}
+
+.edit-case-content {
+  flex: 1;
+  padding: 0;
+}
+
+
+.edit-case-header {
+  position: relative;
+
+  background-image: url('../assets/navbar-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: #ffffff;
+  padding: 22px 32px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  overflow: hidden;
+}
+
+.edit-case-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+
+  background: rgba(62, 25, 28, 0.35);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  z-index: 0;
+}
+
+.edit-case-header > * {
+  position: relative;
+  z-index: 1;
+}
+
+.edit-case-header h1 {
+  margin: 0;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 2.4em;
+  font-weight: 600;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+}
+
+.header-button {
+  background: rgba(128, 0, 32, 0.85);
+  color: #ffffff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 12px;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.header-button:hover {
+  background-color: rgba(98, 42, 42, 0.95);
+  transform: translateY(-1px);
+}
+
+.edit-case-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 32px auto 40px;
+  padding: 32px;
+
+  background: #ffffff;
+  color: #800020;
+  border-radius: 16px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.28);
+  font-family: 'Georgia', serif;
+}
+
+
+.edit-case-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.edit-case-form label {
+  margin-top: 6px;
+  color: #800020;
+  font-family: 'Georgia', serif;
+}
+
+.edit-case-form input,
+.edit-case-form select,
+.edit-case-form textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 0, 32, 0.6);
+  background: #ffffff;
+  color: #800020;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.edit-case-form input,
+.edit-case-form select {
+  height: 44px;
+  padding: 0 12px;
+}
+
+.edit-case-form textarea {
+  padding: 10px 12px;
+  resize: vertical;
+}
+
+.primary-button {
+  margin-top: 10px;
+  background: rgba(128, 0, 32, 0.95);
+  color: #ffffff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 12px;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.primary-button:hover {
+  background-color: rgba(98, 42, 42, 0.95);
+  transform: translateY(-1px);
+}
+
+.form-message {
+  margin-top: 10px;
+  color: #800020;
+  font-family: 'Georgia', serif;
+}

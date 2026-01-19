@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "crypto-browserify": "^3.12.0",
+    "digital-signature": "^1.0.4",
+    "nodemailer": "^6.9.13",
+    "pdf-lib": "^1.17.1"
+  }
+}

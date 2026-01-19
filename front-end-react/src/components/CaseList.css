@@ -1,0 +1,76 @@
+.case-list-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 2em;
+  border: 2px solid #800020; 
+  border-radius: 1em;
+  background: #FFFFFF; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #800020; 
+}
+
+.case-list-container h2 {
+  color: #800020; 
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.case-list-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.case-list-container li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff; 
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  color: #800020; 
+}
+
+/* .case-list-container li:hover {
+  background-color: #622a2abc; 
+  color: #ffffff; 
+} */
+
+.case-list-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.case-list-container label {
+  margin-top: 0.5em;
+  color: #800020; 
+}
+
+.case-list-container input, .case-list-container textarea, .case-list-container select {
+  padding: 0.5em;
+  margin-top: 0.2em;
+  border: 1px solid #800020; 
+  border-radius: 0.3em;
+  background-color: #FFFFFF; 
+  color: #800020; 
+  font-size: 1em;
+}
+
+.case-list-container button {
+  padding: 0.7em;
+  margin-top: 1em;
+  background: #800020; 
+  color: #FFFFFF; 
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+.case-list-container button:hover {
+  background: #622a2a88; 
+}
+
+.case-list-container p {
+  color: green;
+  margin-top: 10px;
+}
